@@ -1,5 +1,9 @@
 package com.crud.hardwarecabinet.server;
 
+/* This class authenticates requests to the server.
+* Pulls in username and password from application.properties
+* (TESTING PURPOSES: DO NOT USE IT IN PRODUCTION ENVIRONMENT) */
+
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

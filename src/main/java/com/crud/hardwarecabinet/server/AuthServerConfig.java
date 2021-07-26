@@ -1,5 +1,8 @@
 package com.crud.hardwarecabinet.server;
 
+/* This class will create and return JSON web tokens when
+the client properly authenticates with OAuth2 */
+
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.crypto.password.PasswordEncoder;
